@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaLinkedin, FaGithub, FaCheckCircle } from "react-icons/fa";
 import { LuSend } from "react-icons/lu";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 import "../stylesheets/Contact.css";
 
 const SERVICE_ID = "service_ssy9l7o";
 const TEMPLATE_ID = "template_po2o0v8";
 const PUBLIC_KEY = "Nt_42I7US1TE7d2iD";
 
-// Update these with your actual details:
 const EMAIL = "gargdevji3416@gmail.com";
 const LINKEDIN = "https://linkedin.com/in/devkinandan-garg";
 const GITHUB = "https://github.com/devkinandan3416";
@@ -27,11 +27,31 @@ export default function Contact() {
       .then(
         () => {
           setSubmitted(true);
+          toast.success('Message sent successfully!', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
           setTimeout(() => setSubmitted(false), 3500);
           e.target.reset();
         },
         () => {
           setError("Failed to send message. Please try again later.");
+          toast.error('Failed to send message. Please try again later.', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
         }
       );
   }

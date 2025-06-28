@@ -59,11 +59,9 @@ export default function Resume() {
           transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
         >
           <a
-            href={resumeUrl}
+            href="/Documents/Full Stack Web Developer(MERN)_Resume.pdf"
             className="resume-download"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
+            download="Resume_Devkinandan_Garg.pdf"
           >
             <FaFileDownload /> Download Resume (PDF)
           </a>

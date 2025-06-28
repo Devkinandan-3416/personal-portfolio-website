@@ -149,11 +149,9 @@ export default function Hero() {
               <FaEnvelope /> Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1JYEobvcpU7WK0e11oUr3Arq-pavkwD3B/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/Documents/Full Stack Web Developer(MERN)_Resume.pdf"
+              download="Resume_Devkinandan_Garg.pdf"
               className="hero-button secondary"
-              download
             >
               <FaFileDownload /> Resume
             </a>

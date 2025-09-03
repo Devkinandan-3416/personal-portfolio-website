@@ -36,7 +36,7 @@ const projects = [
     title: "Social Media Web App",
     description: "A scalable social media platform with authentication, real-time posts, and modern UI/UX.",
     tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-    demo: "#",
+    demo: "https://connect-social-media-web-app.vercel.app/",
     github: "https://github.com/devkinandan-3416",
     image: "/images/social-media.jpg",
     category: "Major"
@@ -45,7 +45,7 @@ const projects = [
     title: "Portfolio Web App",
     description: "My personal portfolio built with React and Framer Motion to showcase my projects, skills, and resume.",
     tech: ["React", "Framer Motion", "CSS"],
-    demo: "#",
+    demo: "https://devkinandangarg-portfolio.vercel.app/",
     github: "https://github.com/devkinandan-3416",
     image: "/images/portfolio.jpg",
     category: "Major"
@@ -55,7 +55,7 @@ const projects = [
     title: "Calculator App",
     description: "A responsive calculator with advanced functions and keyboard support.",
     tech: ["React", "CSS"],
-    demo: "#",
+    demo: "https://dev-calculator-react-app.vercel.app/",
     github: "https://github.com/devkinandan-3416",
     image: "/images/calculator.png",
     category: "Minor"
@@ -64,7 +64,7 @@ const projects = [
     title: "Todo App",
     description: "A minimalistic todo app with persistent storage and intuitive UI.",
     tech: ["React", "LocalStorage", "CSS"],
-    demo: "#",
+    demo: "https://todo-react-web-app.vercel.app/",
     github: "https://github.com/devkinandan-3416",
     image: "/images/todo-list.png",
     category: "Minor"
